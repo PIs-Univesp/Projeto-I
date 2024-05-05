@@ -142,12 +142,14 @@ img {
     align-items: center;
     justify-content: center;
     background: rgba(var(--c-brand-rgb), 0.1);
+    background-image: url(../Images/marcenaria.webp);
+    background-size: cover;
     color: var(--c-brand);
     font-size: 34px;
     flex: none;
 }
 
-/* PARCERIAS */
+/* PILARES */
 .pilares {
     position: relative;
     overflow: hidden;
@@ -183,6 +185,11 @@ img {
 }
 
 /* PARCERIAS */
+
+#parcerias {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.4), rgba(var(--c-brand-rgb), 0.5));
+}
+
 .parcerias {
     position: relative;
     overflow: hidden;
@@ -215,6 +222,60 @@ img {
 
 .parcerias:hover .iconbox {
     color: white;
+}
+
+#marcenaria {
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../Images/marcenaria.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#vitral {
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../Images/vitral.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#tear {
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../Images/tear.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#serigrafia {
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../Images/serigrafia.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#mosaico {
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../Images/mosaico.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#papel {
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../Images/papel.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#encadernacao {
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../Images/encadernacao.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#culinaria {
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../Images/culinaria.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#jardinagem {
+    background: linear-gradient(rgba(0,0,0, 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../Images/jardinagem.webp);
+    background-size: cover;
+    border-radius: 10px;
 }
 
 /* CONTADOR */
