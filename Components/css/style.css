@@ -148,6 +148,41 @@ img {
 }
 
 /* PARCERIAS */
+.pilares {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.pilares::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: rgba(var(--c-brand-rgb), 0.2);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: var(--transition);
+}
+
+
+.pilares:hover::after {
+    width: 100%;
+    height: 100%;
+    background: var(--c-brand);
+    z-index: -1;
+}
+
+.pilares:hover h5,
+.pilares:hover p {
+    color: white;
+}
+
+.pilares:hover .iconbox {
+    color: white;
+}
+
+/* PARCERIAS */
 .parcerias {
     position: relative;
     overflow: hidden;
