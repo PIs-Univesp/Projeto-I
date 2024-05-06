@@ -278,13 +278,6 @@ img {
     border-radius: 10px;
 }
 
-/* CONTADOR */
-#contador {
-    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/contador.png);
-    background-position: center;
-    background-size: cover;
-}
-
 
 /* PARTICIPE */
 
