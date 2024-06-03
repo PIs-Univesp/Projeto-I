@@ -20,6 +20,10 @@ body {
     color: var(--c-body);
 }
 
+nav {
+    background-image: url(../Images/fundo-menu.jpg);
+}
+
 h1, h2, h3,h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 600;
@@ -184,19 +188,19 @@ img {
     color: white;
 }
 
-/* PARCERIAS */
+/* OFICINAS */
 
-#parcerias {
+#oficinas {
     background: linear-gradient(rgba(var(--c-brand-rgb), 0.4), rgba(var(--c-brand-rgb), 0.5));
 }
 
-.parcerias {
+.oficinas {
     position: relative;
     overflow: hidden;
     z-index: 2;
 }
 
-.parcerias::after {
+.oficinas::after {
     content: "";
     width: 40px;
     height: 40px;
@@ -208,19 +212,19 @@ img {
 }
 
 
-.parcerias:hover::after {
+.oficinas:hover::after {
     width: 100%;
     height: 100%;
     background: var(--c-brand);
     z-index: -1;
 }
 
-.parcerias:hover h5,
-.parcerias:hover p {
+.oficinas:hover h5,
+.oficinas:hover p {
     color: white;
 }
 
-.parcerias:hover .iconbox {
+.oficinas:hover .iconbox {
     color: white;
 }
 
